@@ -4,6 +4,28 @@ header {
     margin: 0;
 }
 
+.container-style {
+    padding-right: 0;
+}
+
+/*---alert---*/
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 200;
+    border-color: rgb(19, 109, 226);
+}
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 /*---colors---*/
 
 .ui-color-home {
@@ -33,11 +55,12 @@ header {
 }
 
 .navbar {
+    padding-bottom: 0;
     padding-left: 0;
     padding-top: 0;
     display: inline-block;
     position: relative;
-    height: 800px;
+    min-height: 100%;
 }
 
 #nav li {
@@ -75,9 +98,62 @@ header {
     text-transform: uppercase;
 }
 
+/*---callout---*/
+
+.callout {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+    letter-spacing: 9px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 130px;
+    margin-right: 130px;
+    padding: 15px;
+    background: #9c9b9b;
+    color: #fafafa;
+}
+
+.container-background {
+    background-color: #c5b2b2;
+    padding: 0;
+}
+
 /*---hover---*/
 
 .hvr-bounce-to-right:before {
-    background-color: #228b3c;
+    background-color: #15692a;
     height: 180px;
+}
+
+/*----menu---*/
+
+.food-beverage-menu-container {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Permanent Marker', cursive;
+    background: #9c9b9b;
+    color: #fafafa;
+}
+
+.breakfast-container {
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Permanent Marker', cursive;
+    background: #9c9b9b;
+    color: #fafafa;
+}
+
+.lunch-container {
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Permanent Marker', cursive;
+    background: #9c9b9b;
+    color: #fafafa;
 }
