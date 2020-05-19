@@ -60,7 +60,7 @@ header {
     padding-top: 0;
     display: inline-block;
     position: relative;
-    min-height: 100%;
+    
 }
 
 #nav li {
@@ -68,7 +68,7 @@ header {
 }
 
 .menuitem {
-    height: 180px;
+    height: 140px;
     text-align: center;
     padding: 0; 
 }
@@ -81,7 +81,7 @@ header {
 }
 
 .menuitem a i {
-    padding-top: 50px;
+    padding-top: 30px;
     display: block;
     color: #fafafa;
     font-size: 30px;
@@ -106,15 +106,15 @@ header {
     letter-spacing: 9px;
     text-align: center;
     margin-top: 20px;
-    margin-left: 130px;
-    margin-right: 130px;
+    margin-left: 250px;
+    margin-right: 250px;
     padding: 15px;
     background: #9c9b9b;
     color: #fafafa;
 }
 
 .container-background {
-    background-color: #c5b2b2;
+    background-color: #c5b2b29c;
     padding: 0;
 }
 
@@ -122,14 +122,17 @@ header {
 
 .hvr-bounce-to-right:before {
     background-color: #15692a;
-    height: 180px;
+}
+
+.social-links li a i:hover {
+    background: #15692a;
 }
 
 /*----menu---*/
 
 .food-beverage-menu-container {
     padding: 5px;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 0;
     text-align: center;
     text-transform: uppercase;
@@ -139,8 +142,9 @@ header {
 }
 
 .breakfast-container {
-    padding: 5px;
-    margin: 0;
+    padding: 10px;
+    margin-top: 0;
+    margin-left: 50px;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Permanent Marker', cursive;
@@ -149,11 +153,47 @@ header {
 }
 
 .lunch-container {
-    padding: 5px;
-    margin: 0;
+    padding: 10px;
+    margin-top: 0;
+    margin-right: 50px;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Permanent Marker', cursive;
     background: #9c9b9b;
     color: #fafafa;
 }
+
+/*---footer---*/
+
+#footer-style {
+    background: #9c9b9b;
+    color: #fff;
+    font-family: 'Exo',sans-serif;
+    padding: 10px;
+}
+
+.footer-headers {
+    text-align: center;
+    font-family: cursive;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+.social-links {
+    text-align: center;
+    letter-spacing: 5px;
+    padding-top: 8px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 12px;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #5f5e5e;
+}
+
