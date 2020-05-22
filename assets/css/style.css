@@ -6,6 +6,8 @@ header {
 
 .container-style {
     padding-right: 0;
+    
+    
 }
 
 /*---alert---*/
@@ -74,7 +76,7 @@ header {
 }
 
 .menuitem a {
-    width: 100;
+   
     text-decoration: none;
     color: #ffffff;
     height: 180px;
@@ -161,6 +163,23 @@ header {
     font-family: 'Permanent Marker', cursive;
     background: #9c9b9b;
     color: #fafafa;
+}
+.break-point {
+    background-color: #c5b2b29c;
+}
+.description-container {
+    background: #9c9b9b;
+    color: #fafafa;
+}
+
+.breakfast-item {
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+.breakfast-description {
+    font-size: 10px;
 }
 
 /*---footer---*/
